@@ -23,7 +23,7 @@ jobs:
         push: true
         tags: |
           masilva2018/live-kube-news:v1
-          masilva2018/live-kube-news:lastest
+          masilva2018/live-kube-news:latest
           
         
     
