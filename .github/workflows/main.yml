@@ -22,10 +22,8 @@ jobs:
         file: ./src/Dockerfile
         push: true
         tags: |
-          masilva2018/live-kube-news:v1
+          masilva2018/live-kube-news:${{github.run_number}}
           masilva2018/live-kube-news:latest
-          
-        
     
       
     
