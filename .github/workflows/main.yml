@@ -43,5 +43,5 @@ jobs:
         with:
           images:  masilva2018/live-kube-news:${{github.run_number}}
           manifests: |
-            k8s/deplpoyment.yaml
+            k8s/deployment.yaml
             
